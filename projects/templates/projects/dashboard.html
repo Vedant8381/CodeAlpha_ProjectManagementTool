@@ -225,6 +225,179 @@
                 grid-template-columns: 1fr;
             }
         }
+        /* ===== TASKFLOW MODERN UI ===== */
+
+body {
+    background:
+        radial-gradient(circle at 10% 10%, rgba(99, 102, 241, 0.25), transparent 30%),
+        radial-gradient(circle at 90% 15%, rgba(168, 85, 247, 0.22), transparent 30%),
+        radial-gradient(circle at 50% 100%, rgba(59, 130, 246, 0.12), transparent 35%),
+        #080d1c !important;
+    color: #f8fafc !important;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(
+        90deg,
+        #111827,
+        #312e81,
+        #4c1d95
+    ) !important;
+
+    box-shadow: 0 8px 35px rgba(79, 70, 229, 0.35) !important;
+}
+
+/* MAIN HEADING */
+h1, h2, h3 {
+    color: #ffffff !important;
+}
+
+.subtitle,
+p {
+    color: #94a3b8;
+}
+
+/* NEW PROJECT BUTTON */
+.btn-primary,
+a.btn-primary,
+button.btn-primary {
+    background: linear-gradient(
+        135deg,
+        #6366f1,
+        #8b5cf6
+    ) !important;
+
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.35);
+}
+
+.btn-primary:hover,
+a.btn-primary:hover,
+button.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(139, 92, 246, 0.5);
+}
+
+/* STAT CARDS */
+.stat-card {
+    background: linear-gradient(
+        135deg,
+        rgba(79, 70, 229, 0.30),
+        rgba(124, 58, 237, 0.18)
+    ) !important;
+
+    border: 1px solid rgba(129, 140, 248, 0.35) !important;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.35),
+        inset 0 1px 0 rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(12px);
+
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(167, 139, 250, 0.8) !important;
+    box-shadow:
+        0 15px 40px rgba(99, 102, 241, 0.25),
+        0 0 25px rgba(139, 92, 246, 0.15);
+}
+
+.stat-card h3,
+.stat-card .number,
+.stat-card strong {
+    color: #ffffff !important;
+}
+
+.stat-card p,
+.stat-card span {
+    color: #c4b5fd !important;
+}
+
+/* PROJECT CARDS */
+.project-card {
+    background: linear-gradient(
+        145deg,
+        rgba(30, 41, 59, 0.95),
+        rgba(49, 46, 129, 0.55)
+    ) !important;
+
+    border: 1px solid rgba(129, 140, 248, 0.30) !important;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.35),
+        inset 0 1px 0 rgba(255,255,255,0.06);
+
+    backdrop-filter: blur(10px);
+
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px) scale(1.01);
+
+    border-color: rgba(139, 92, 246, 0.75) !important;
+
+    box-shadow:
+        0 18px 40px rgba(79, 70, 229, 0.25),
+        0 0 30px rgba(139, 92, 246, 0.12);
+}
+
+/* PROJECT TITLE */
+.project-card h3,
+.project-card h2,
+.project-card a {
+    color: #ffffff !important;
+}
+
+/* PROJECT DESCRIPTION */
+.project-card p {
+    color: #cbd5e1 !important;
+}
+
+/* STATUS BADGES */
+.project-card .badge {
+    background: linear-gradient(
+        135deg,
+        #6366f1,
+        #8b5cf6
+    ) !important;
+
+    color: #ffffff !important;
+    border: none !important;
+}
+
+/* LINKS */
+a {
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: #a78bfa !important;
+}
+
+/* LOGOUT */
+.navbar a[href*="logout"] {
+    background: linear-gradient(
+        135deg,
+        #ef4444,
+        #f97316
+    ) !important;
+
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.25);
+}
+
+/* SMOOTH */
+* {
+    transition: border-color 0.2s ease,
+                box-shadow 0.2s ease;
+}
     </style>
 </head>
 
